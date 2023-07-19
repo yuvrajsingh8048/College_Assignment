@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(213, 213, 253);
+}
+.heading{
+    text-align: center;
+    font-weight: 900;
+    color: red;
+}
+.userDetails{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    color: chocolate;
+}
+h4{
+    background-color: rgb(202, 198, 198);
+    color: black;
+    font-weight: 900;
+    width: 90%;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+p{
+    color: blue;
+    font-weight: 700;
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+}
+.sign{
+    margin-left: 80%;
+    font-weight: 900;
+    color: red;
+}
